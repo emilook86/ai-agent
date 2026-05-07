@@ -1,0 +1,3 @@
+MAX_CHARS = 10_000
+MAX_LOOPS = 20
+WORKING_DIR = "./calculator"
