@@ -46,20 +46,18 @@ A terminal-based AI coding agent built in Python, powered by Google Gemini. The 
 
 ## Usage
 
-Run the agent with a natural-language prompt:
+- Run the agent with a natural-language prompt:
+   ```bash
+   uv run main.py "Your prompt here"
+   ```
 
-    ```bash
-    uv run main.py "Your prompt here"
-    ```
 
-Enable verbose output to see token counts and function call results:
-
+- Enable verbose output to see token counts and function call results:
     ```bash
     uv run main.py "Your prompt here" --verbose
     ```
 
-Example:
-
+- Example:
     ```bash
     uv run main.py "how does the calculator render results to the console?" --verbose
     ```
